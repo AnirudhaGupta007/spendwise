@@ -45,3 +45,21 @@ const deleteTransaction = async (req, res) => {
 };
 
 module.exports = { getTransactions, addTransaction, deleteTransaction };
+
+const updateTransaction = async (req, res) => {
+  try {
+    const transaction = await Transaction.findById(req.params.id);
+    if (!transaction) {
+      return res.status(404).json({ success: false, message: "Transaction not found" });
+    }
+    if (transaction.userId.toString() !== req.userId) {
+      return res.status(403).json({ success: false, message: "Not authorized" });
+    }
+    const updated = await Transaction.findByIdAndUpdate(req.params.id, req.body, { new: true });
+    res.json({ success: true, data: updated });
+  } catch (error) {
+    res.status(500).json({ success: false, message: error.message });
+  }
+};
+
+module.exports = { getTransactions, addTransaction, deleteTransaction, updateTransaction };

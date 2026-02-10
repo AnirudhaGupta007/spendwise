@@ -27,3 +27,21 @@ const addTransaction = async (req, res) => {
 };
 
 module.exports = { getTransactions, addTransaction };
+
+const deleteTransaction = async (req, res) => {
+  try {
+    const transaction = await Transaction.findById(req.params.id);
+    if (!transaction) {
+      return res.status(404).json({ success: false, message: "Transaction not found" });
+    }
+    if (transaction.userId.toString() !== req.userId) {
+      return res.status(403).json({ success: false, message: "Not authorized" });
+    }
+    await transaction.deleteOne();
+    res.json({ success: true, message: "Transaction deleted" });
+  } catch (error) {
+    res.status(500).json({ success: false, message: error.message });
+  }
+};
+
+module.exports = { getTransactions, addTransaction, deleteTransaction };

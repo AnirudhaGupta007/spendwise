@@ -11,6 +11,7 @@ app.use(morgan("dev"));
 const connectDB = require("./config/db");
 connectDB();
 
+app.use("/api/transactions", require("./routes/transactionRoutes"));
 app.use("/api/users", require("./routes/userRoutes"));
 
 const PORT = process.env.PORT || 5000;

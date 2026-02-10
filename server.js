@@ -17,5 +17,9 @@ app.use("/api/users", require("./routes/userRoutes"));
 const errorHandler = require("./middleware/errorHandler");
 app.use(errorHandler);
 
+app.get("/api/health", (req, res) => {
+  res.json({ status: "ok", timestamp: new Date().toISOString() });
+});
+
 const PORT = process.env.PORT || 5000;
 app.listen(PORT, () => console.log(`Server running on port ${PORT}`));

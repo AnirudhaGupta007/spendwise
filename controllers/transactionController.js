@@ -1,4 +1,5 @@
 const Transaction = require("../models/Transaction");
+const { incomeCategories, expenseCategories } = require("../config/categories");
 
 const getTransactions = async (req, res) => {
   try {

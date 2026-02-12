@@ -64,3 +64,16 @@ const updateTransaction = async (req, res) => {
 };
 
 module.exports = { getTransactions, addTransaction, deleteTransaction, updateTransaction };
+
+const getSummary = async (req, res) => {
+  try {
+    const transactions = await Transaction.find({ userId: req.userId });
+    const income = transactions.filter(t => t.type === "income").reduce((sum, t) => sum + t.amount, 0);
+    const expense = transactions.filter(t => t.type === "expense").reduce((sum, t) => sum + t.amount, 0);
+    res.json({ success: true, data: { income, expense, balance: income - expense, total: transactions.length } });
+  } catch (error) {
+    res.status(500).json({ success: false, message: error.message });
+  }
+};
+
+module.exports = { getTransactions, addTransaction, deleteTransaction, updateTransaction, getSummary };

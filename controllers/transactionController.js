@@ -3,7 +3,16 @@ const { incomeCategories, expenseCategories } = require("../config/categories");
 
 const getTransactions = async (req, res) => {
   try {
-    const transactions = await Transaction.find({ userId: req.userId }).sort({ date: -1 });
+    const { startDate, endDate, type, category } = req.query;
+    const filter = { userId: req.userId };
+    if (startDate || endDate) {
+      filter.date = {};
+      if (startDate) filter.date.$gte = new Date(startDate);
+      if (endDate) filter.date.$lte = new Date(endDate);
+    }
+    if (type) filter.type = type;
+    if (category) filter.category = category;
+    const transactions = await Transaction.find(filter).sort({ date: -1 });
     res.json({ success: true, data: transactions });
   } catch (error) {
     res.status(500).json({ success: false, message: error.message });

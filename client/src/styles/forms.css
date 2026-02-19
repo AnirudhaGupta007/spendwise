@@ -1,0 +1,16 @@
+.form-page {
+  max-width: 500px;
+  margin: 0 auto;
+}
+
+.form-page h2 {
+  margin-bottom: 1.5rem;
+  color: #333;
+}
+
+.transaction-form {
+  background: #fff;
+  padding: 2rem;
+  border-radius: 10px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.06);
+}

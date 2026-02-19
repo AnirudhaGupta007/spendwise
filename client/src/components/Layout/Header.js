@@ -1,5 +1,5 @@
 import React from "react";
-import { useNavigate } from "react-router-dom";
+import { useNavigate, Link } from "react-router-dom";
 import "../../styles/header.css";
 
 const Header = () => {
@@ -14,7 +14,7 @@ const Header = () => {
 
   return (
     <header className="app-header">
-      <h1 className="header-logo">💰 Expense Tracker</h1>
+      <Link to="/" className="header-logo">💰 Expense Tracker</Link>
       <div className="header-right">
         <span className="user-name">{user?.name}</span>
         <button onClick={handleLogout} className="logout-btn">Logout</button>

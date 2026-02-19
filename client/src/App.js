@@ -3,6 +3,7 @@ import { BrowserRouter, Routes, Route, Navigate } from "react-router-dom";
 import Login from "./pages/Login";
 import Register from "./pages/Register";
 import HomePage from "./pages/HomePage";
+import AddTransaction from "./pages/AddTransaction";
 import "./App.css";
 
 function App() {
@@ -11,6 +12,7 @@ function App() {
   return (
     <BrowserRouter>
       <Routes>
+        <Route path="/add" element={isLoggedIn() ? <AddTransaction /> : <Navigate to="/login" />} />
         <Route path="/" element={isLoggedIn() ? <HomePage /> : <Navigate to="/login" />} />
         <Route path="/login" element={<Login />} />
         <Route path="/register" element={<Register />} />

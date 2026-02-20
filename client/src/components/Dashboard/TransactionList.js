@@ -7,3 +7,5 @@ const TransactionList = () => {
 export default TransactionList;
 
 // style summary cards
+
+// add card loading state

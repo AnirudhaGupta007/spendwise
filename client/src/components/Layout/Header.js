@@ -15,6 +15,10 @@ const Header = () => {
   return (
     <header className="app-header">
       <Link to="/" className="header-logo">💰 Expense Tracker</Link>
+      <nav className="header-nav">
+        <Link to="/">Dashboard</Link>
+        <Link to="/add">Add</Link>
+      </nav>
       <div className="header-right">
         <span className="user-name">{user?.name}</span>
         <button onClick={handleLogout} className="logout-btn">Logout</button>

@@ -7,3 +7,5 @@ const SummaryCards = () => {
 export default SummaryCards;
 
 // add balance card
+
+// add card hover effect

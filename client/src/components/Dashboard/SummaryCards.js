@@ -11,3 +11,5 @@ export default SummaryCards;
 // add card hover effect
 
 // add transaction table
+
+// add edit action to table

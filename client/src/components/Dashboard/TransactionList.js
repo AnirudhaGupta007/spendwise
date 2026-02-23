@@ -9,3 +9,5 @@ export default TransactionList;
 // style summary cards
 
 // add card loading state
+
+// add table columns

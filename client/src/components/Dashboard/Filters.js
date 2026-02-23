@@ -11,3 +11,5 @@ export default Filters;
 // create transaction list component
 
 // add delete button to table
+
+// add pagination to table

@@ -9,3 +9,5 @@ export default Filters;
 // add card icons
 
 // create transaction list component
+
+// add delete button to table

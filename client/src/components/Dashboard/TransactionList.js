@@ -11,3 +11,5 @@ export default TransactionList;
 // add card loading state
 
 // add table columns
+
+// style transaction table

@@ -15,3 +15,5 @@ export default TransactionList;
 // style transaction table
 
 // add loading spinner
+
+// add filter by type

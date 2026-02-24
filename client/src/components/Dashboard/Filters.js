@@ -15,3 +15,5 @@ export default Filters;
 // add pagination to table
 
 // create date filter component
+
+// add filter by category

@@ -13,3 +13,5 @@ export default TransactionList;
 // add table columns
 
 // style transaction table
+
+// add loading spinner

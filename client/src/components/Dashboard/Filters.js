@@ -13,3 +13,5 @@ export default Filters;
 // add delete button to table
 
 // add pagination to table
+
+// create date filter component

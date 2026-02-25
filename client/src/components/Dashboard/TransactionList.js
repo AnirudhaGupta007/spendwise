@@ -17,3 +17,5 @@ export default TransactionList;
 // add loading spinner
 
 // add filter by type
+
+// style filter bar

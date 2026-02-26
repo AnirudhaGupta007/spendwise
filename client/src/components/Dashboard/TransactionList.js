@@ -19,3 +19,5 @@ export default TransactionList;
 // add filter by type
 
 // style filter bar
+
+// fetch transactions on mount

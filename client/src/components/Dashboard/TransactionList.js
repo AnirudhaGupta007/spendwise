@@ -21,3 +21,5 @@ export default TransactionList;
 // style filter bar
 
 // fetch transactions on mount
+
+// style homepage layout

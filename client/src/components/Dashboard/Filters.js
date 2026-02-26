@@ -17,3 +17,5 @@ export default Filters;
 // create date filter component
 
 // add filter by category
+
+// add clear filters button

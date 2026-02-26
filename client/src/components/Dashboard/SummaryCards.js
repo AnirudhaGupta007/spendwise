@@ -21,3 +21,5 @@ export default SummaryCards;
 // wire filters to api
 
 // add mobile filter layout
+
+// show total count

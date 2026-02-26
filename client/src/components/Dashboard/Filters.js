@@ -19,3 +19,5 @@ export default Filters;
 // add filter by category
 
 // add clear filters button
+
+// add error handling

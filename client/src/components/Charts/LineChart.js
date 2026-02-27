@@ -1,0 +1,7 @@
+import React from "react";
+
+const LineChart = () => {
+  return <div className="linechart">LineChart</div>;
+};
+
+export default LineChart;

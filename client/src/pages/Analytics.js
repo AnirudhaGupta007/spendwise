@@ -5,3 +5,5 @@ const Analytics = () => {
 };
 
 export default Analytics;
+
+// add chart colors

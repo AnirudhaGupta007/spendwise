@@ -5,3 +5,5 @@ const BarChart = () => {
 };
 
 export default BarChart;
+
+// add monthly income vs expense bar

@@ -7,3 +7,5 @@ const LineChart = () => {
 export default LineChart;
 
 // style pie chart container
+
+// style bar chart

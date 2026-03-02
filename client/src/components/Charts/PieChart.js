@@ -5,3 +5,5 @@ const PieChart = () => {
 };
 
 export default PieChart;
+
+// create bar chart component

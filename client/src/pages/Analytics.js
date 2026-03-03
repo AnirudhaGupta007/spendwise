@@ -9,3 +9,5 @@ export default Analytics;
 // add chart colors
 
 // add chart title
+
+// add chart legend

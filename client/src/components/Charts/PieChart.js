@@ -7,3 +7,5 @@ const PieChart = () => {
 export default PieChart;
 
 // create bar chart component
+
+// create line chart component

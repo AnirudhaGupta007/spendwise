@@ -9,3 +9,5 @@ export default BarChart;
 // add monthly income vs expense bar
 
 // add balance trend line
+
+// add chart loading state

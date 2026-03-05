@@ -13,3 +13,5 @@ export default LineChart;
 // style line chart
 
 // add no data state for charts
+
+// fix chart aspect ratio

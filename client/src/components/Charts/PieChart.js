@@ -11,3 +11,5 @@ export default PieChart;
 // create line chart component
 
 // create chart wrapper
+
+// add responsive chart layout

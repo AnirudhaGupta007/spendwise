@@ -11,3 +11,5 @@ export default BarChart;
 // add balance trend line
 
 // add chart loading state
+
+// add chart tooltips

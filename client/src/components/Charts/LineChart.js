@@ -11,3 +11,5 @@ export default LineChart;
 // style bar chart
 
 // style line chart
+
+// add no data state for charts

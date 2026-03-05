@@ -11,3 +11,5 @@ export default Analytics;
 // add chart title
 
 // add chart legend
+
+// style analytics page

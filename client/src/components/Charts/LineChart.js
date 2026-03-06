@@ -17,3 +17,5 @@ export default LineChart;
 // fix chart aspect ratio
 
 // style analytics tabs
+
+// fix chart colors on dark bg

@@ -17,3 +17,5 @@ export default Analytics;
 // add date range to analytics
 
 // add category breakdown table
+
+// add print styles

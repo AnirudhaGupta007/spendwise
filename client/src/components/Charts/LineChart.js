@@ -15,3 +15,5 @@ export default LineChart;
 // add no data state for charts
 
 // fix chart aspect ratio
+
+// style analytics tabs

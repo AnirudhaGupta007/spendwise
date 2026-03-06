@@ -13,3 +13,5 @@ export default PieChart;
 // create chart wrapper
 
 // add responsive chart layout
+
+// link analytics in header nav

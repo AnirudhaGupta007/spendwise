@@ -13,3 +13,5 @@ export default BarChart;
 // add chart loading state
 
 // add chart tooltips
+
+// add tab navigation

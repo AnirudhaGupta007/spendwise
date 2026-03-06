@@ -15,3 +15,5 @@ export default BarChart;
 // add chart tooltips
 
 // add tab navigation
+
+// add percentage column

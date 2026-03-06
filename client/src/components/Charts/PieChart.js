@@ -15,3 +15,5 @@ export default PieChart;
 // add responsive chart layout
 
 // link analytics in header nav
+
+// style breakdown table

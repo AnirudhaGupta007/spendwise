@@ -13,3 +13,5 @@ export default EditTransaction;
 // add success redirect after edit
 
 // add cancel button to form
+
+// validate amount is positive

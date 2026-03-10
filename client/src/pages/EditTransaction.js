@@ -23,3 +23,5 @@ export default EditTransaction;
 // add income specific categories
 
 // add expense specific categories
+
+// switch categories based on type

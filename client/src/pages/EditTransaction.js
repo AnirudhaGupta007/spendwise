@@ -25,3 +25,5 @@ export default EditTransaction;
 // add expense specific categories
 
 // switch categories based on type
+
+// add description char limit

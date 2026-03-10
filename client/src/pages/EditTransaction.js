@@ -19,3 +19,5 @@ export default EditTransaction;
 // add form reset button
 
 // improve category select options
+
+// add income specific categories

@@ -15,3 +15,5 @@ export default EditTransaction;
 // add cancel button to form
 
 // validate amount is positive
+
+// add form reset button

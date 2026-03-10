@@ -17,3 +17,5 @@ export default EditTransaction;
 // validate amount is positive
 
 // add form reset button
+
+// improve category select options

@@ -29,3 +29,5 @@ export default EditTransaction;
 // add description char limit
 
 // add date default to today
+
+// improve form error messages

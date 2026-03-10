@@ -27,3 +27,5 @@ export default EditTransaction;
 // switch categories based on type
 
 // add description char limit
+
+// add date default to today

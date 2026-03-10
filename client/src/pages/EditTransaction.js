@@ -21,3 +21,5 @@ export default EditTransaction;
 // improve category select options
 
 // add income specific categories
+
+// add expense specific categories

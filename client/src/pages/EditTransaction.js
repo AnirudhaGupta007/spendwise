@@ -33,3 +33,5 @@ export default EditTransaction;
 // improve form error messages
 
 // add form field tooltips
+
+// style form labels

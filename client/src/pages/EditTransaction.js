@@ -45,3 +45,5 @@ export default EditTransaction;
 // add confirm dialog before delete
 
 // style confirm dialog
+
+// add bulk delete feature

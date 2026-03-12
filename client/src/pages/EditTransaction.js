@@ -37,3 +37,5 @@ export default EditTransaction;
 // style form labels
 
 // add form card shadow
+
+// improve input focus styles

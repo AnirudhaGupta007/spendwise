@@ -41,3 +41,5 @@ export default EditTransaction;
 // improve input focus styles
 
 // add loading state to delete
+
+// add confirm dialog before delete

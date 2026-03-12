@@ -43,3 +43,5 @@ export default EditTransaction;
 // add loading state to delete
 
 // add confirm dialog before delete
+
+// style confirm dialog

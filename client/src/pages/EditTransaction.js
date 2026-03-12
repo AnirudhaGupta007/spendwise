@@ -39,3 +39,5 @@ export default EditTransaction;
 // add form card shadow
 
 // improve input focus styles
+
+// add loading state to delete

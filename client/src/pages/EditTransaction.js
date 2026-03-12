@@ -47,3 +47,5 @@ export default EditTransaction;
 // style confirm dialog
 
 // add bulk delete feature
+
+// add select all checkbox

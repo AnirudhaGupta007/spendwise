@@ -51,3 +51,5 @@ export default EditTransaction;
 // add select all checkbox
 
 // style bulk actions bar
+
+// add transaction search

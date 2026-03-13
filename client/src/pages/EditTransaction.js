@@ -53,3 +53,5 @@ export default EditTransaction;
 // style bulk actions bar
 
 // add transaction search
+
+// add search input to list

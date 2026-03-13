@@ -49,3 +49,5 @@ export default EditTransaction;
 // add bulk delete feature
 
 // add select all checkbox
+
+// style bulk actions bar

@@ -55,3 +55,5 @@ export default EditTransaction;
 // add transaction search
 
 // add search input to list
+
+// filter transactions by search

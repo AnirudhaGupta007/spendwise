@@ -59,3 +59,5 @@ export default EditTransaction;
 // filter transactions by search
 
 // debounce search input
+
+// style search input

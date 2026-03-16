@@ -61,3 +61,5 @@ export default EditTransaction;
 // debounce search input
 
 // style search input
+
+// add search clear button

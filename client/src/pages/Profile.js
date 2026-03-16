@@ -5,3 +5,5 @@ const Profile = () => {
 };
 
 export default Profile;
+
+// create profile route

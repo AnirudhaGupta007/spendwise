@@ -7,3 +7,5 @@ const Profile = () => {
 export default Profile;
 
 // create profile route
+
+// display user info

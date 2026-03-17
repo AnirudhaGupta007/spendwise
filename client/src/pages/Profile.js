@@ -13,3 +13,5 @@ export default Profile;
 // add change password form
 
 // add update name form
+
+// validate password strength

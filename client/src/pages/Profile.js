@@ -17,3 +17,5 @@ export default Profile;
 // validate password strength
 
 // add password match check
+
+// style profile page

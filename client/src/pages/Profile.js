@@ -19,3 +19,5 @@ export default Profile;
 // add password match check
 
 // style profile page
+
+// add profile card

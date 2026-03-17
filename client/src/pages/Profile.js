@@ -11,3 +11,5 @@ export default Profile;
 // display user info
 
 // add change password form
+
+// add update name form

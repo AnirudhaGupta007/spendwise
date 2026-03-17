@@ -21,3 +21,5 @@ export default Profile;
 // style profile page
 
 // add profile card
+
+// add avatar placeholder

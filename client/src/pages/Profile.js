@@ -23,3 +23,5 @@ export default Profile;
 // add profile card
 
 // add avatar placeholder
+
+// style avatar circle

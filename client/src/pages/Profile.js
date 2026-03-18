@@ -27,3 +27,5 @@ export default Profile;
 // style avatar circle
 
 // add user stats on profile
+
+// show total transactions count

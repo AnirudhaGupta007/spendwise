@@ -25,3 +25,5 @@ export default Profile;
 // add avatar placeholder
 
 // style avatar circle
+
+// add user stats on profile

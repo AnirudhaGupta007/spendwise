@@ -29,3 +29,5 @@ export default Profile;
 // add user stats on profile
 
 // show total transactions count
+
+// show member since date

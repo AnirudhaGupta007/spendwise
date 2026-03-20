@@ -51,3 +51,5 @@ export default Profile;
 // save currency to localstorage
 
 // display currency symbol
+
+// add dark mode toggle state

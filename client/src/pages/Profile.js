@@ -47,3 +47,5 @@ export default Profile;
 // create settings section
 
 // add currency preference
+
+// save currency to localstorage

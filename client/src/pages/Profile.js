@@ -53,3 +53,5 @@ export default Profile;
 // display currency symbol
 
 // add dark mode toggle state
+
+// save theme preference

@@ -49,3 +49,5 @@ export default Profile;
 // add currency preference
 
 // save currency to localstorage
+
+// display currency symbol

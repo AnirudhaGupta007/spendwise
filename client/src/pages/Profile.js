@@ -45,3 +45,5 @@ export default Profile;
 // add date range to export
 
 // create settings section
+
+// add currency preference

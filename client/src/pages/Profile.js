@@ -57,3 +57,5 @@ export default Profile;
 // save theme preference
 
 // style settings form
+
+// add notification preferences

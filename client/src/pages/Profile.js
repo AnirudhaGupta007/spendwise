@@ -61,3 +61,5 @@ export default Profile;
 // add notification preferences
 
 // add email notification toggle
+
+// style toggle switches

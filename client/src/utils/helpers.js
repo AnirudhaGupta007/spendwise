@@ -5,3 +5,5 @@ const helpers = () => {
 };
 
 export default helpers;
+
+// add trend arrows to stats

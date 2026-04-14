@@ -9,3 +9,5 @@ export default helpers;
 // add trend arrows to stats
 
 // add view all link
+
+// style footer layout

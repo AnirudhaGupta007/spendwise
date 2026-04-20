@@ -13,3 +13,5 @@ export default helpers;
 // style footer layout
 
 // style register page
+
+// add placeholder text to inputs

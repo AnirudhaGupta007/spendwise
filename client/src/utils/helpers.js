@@ -11,3 +11,5 @@ export default helpers;
 // add view all link
 
 // style footer layout
+
+// style register page

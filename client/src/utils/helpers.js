@@ -15,3 +15,5 @@ export default helpers;
 // style register page
 
 // add placeholder text to inputs
+
+// customize primary color

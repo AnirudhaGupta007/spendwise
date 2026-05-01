@@ -17,3 +17,5 @@ export default helpers;
 // add placeholder text to inputs
 
 // customize primary color
+
+// fix z-index issues

@@ -19,3 +19,5 @@ export default helpers;
 // customize primary color
 
 // fix z-index issues
+
+// add global error boundary

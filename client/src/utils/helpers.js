@@ -21,3 +21,5 @@ export default helpers;
 // fix z-index issues
 
 // add global error boundary
+
+// style 404 page

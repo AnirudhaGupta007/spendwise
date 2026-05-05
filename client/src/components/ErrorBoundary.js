@@ -5,3 +5,5 @@ const ErrorBoundary = () => {
 };
 
 export default ErrorBoundary;
+
+// add network error handler

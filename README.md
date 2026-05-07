@@ -24,3 +24,5 @@ cd ..
 cp .env.example .env
 npm run dev:full
 ```
+
+- show offline notification

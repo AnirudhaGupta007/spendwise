@@ -23,3 +23,5 @@ export default helpers;
 // add global error boundary
 
 // style 404 page
+
+// style offline banner

@@ -26,3 +26,5 @@ npm run dev:full
 ```
 
 - show offline notification
+
+- add toast notifications

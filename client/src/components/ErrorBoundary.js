@@ -7,3 +7,5 @@ const ErrorBoundary = () => {
 export default ErrorBoundary;
 
 // add network error handler
+
+// improve api error messages

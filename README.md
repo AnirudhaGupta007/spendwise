@@ -28,3 +28,5 @@ npm run dev:full
 - show offline notification
 
 - add toast notifications
+
+- add form autosave draft

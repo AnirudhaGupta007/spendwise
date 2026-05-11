@@ -27,3 +27,5 @@ export default helpers;
 // style offline banner
 
 // style toast container
+
+// save draft to localstorage

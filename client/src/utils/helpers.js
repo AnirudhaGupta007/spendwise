@@ -25,3 +25,5 @@ export default helpers;
 // style 404 page
 
 // style offline banner
+
+// style toast container

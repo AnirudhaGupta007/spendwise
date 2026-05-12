@@ -13,3 +13,5 @@ export default constants;
 // add success toast
 
 // restore draft on mount
+
+// add ctrl+n for new transaction

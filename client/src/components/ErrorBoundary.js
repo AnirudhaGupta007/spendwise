@@ -13,3 +13,5 @@ export default ErrorBoundary;
 // add error toast
 
 // clear draft on submit
+
+// add escape to close modals

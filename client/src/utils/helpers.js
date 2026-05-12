@@ -29,3 +29,5 @@ export default helpers;
 // style toast container
 
 // save draft to localstorage
+
+// add keyboard shortcuts

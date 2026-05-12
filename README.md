@@ -30,3 +30,5 @@ npm run dev:full
 - add toast notifications
 
 - add form autosave draft
+
+- add unsaved changes warning

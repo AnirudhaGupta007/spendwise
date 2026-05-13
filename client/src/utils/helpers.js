@@ -31,3 +31,5 @@ export default helpers;
 // save draft to localstorage
 
 // add keyboard shortcuts
+
+// improve accessibility labels

@@ -32,3 +32,5 @@ npm run dev:full
 - add form autosave draft
 
 - add unsaved changes warning
+
+- add focus trap in modals

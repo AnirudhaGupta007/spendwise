@@ -34,3 +34,5 @@ npm run dev:full
 - add unsaved changes warning
 
 - add focus trap in modals
+
+- improve tab navigation

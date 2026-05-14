@@ -15,3 +15,5 @@ export default constants;
 // restore draft on mount
 
 // add ctrl+n for new transaction
+
+// add aria attributes

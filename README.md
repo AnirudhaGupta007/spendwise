@@ -36,3 +36,5 @@ npm run dev:full
 - add focus trap in modals
 
 - improve tab navigation
+
+- add api documentation

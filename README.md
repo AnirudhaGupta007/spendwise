@@ -40,3 +40,5 @@ npm run dev:full
 - add api documentation
 
 - update server readme
+
+- add client readme

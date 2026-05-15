@@ -38,3 +38,5 @@ npm run dev:full
 - improve tab navigation
 
 - add api documentation
+
+- update server readme

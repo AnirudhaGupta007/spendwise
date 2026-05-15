@@ -42,3 +42,5 @@ npm run dev:full
 - update server readme
 
 - add client readme
+
+- add setup instructions

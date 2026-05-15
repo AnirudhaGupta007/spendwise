@@ -17,3 +17,5 @@ export default constants;
 // add ctrl+n for new transaction
 
 // add aria attributes
+
+// add skip to content link

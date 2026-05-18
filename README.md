@@ -56,3 +56,5 @@ npm run dev:full
 - remove unused imports
 
 - fix eslint warnings
+
+- add environment variables docs

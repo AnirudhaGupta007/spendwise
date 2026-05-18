@@ -52,3 +52,5 @@ npm run dev:full
 - add license file
 
 - clean up console logs
+
+- remove unused imports

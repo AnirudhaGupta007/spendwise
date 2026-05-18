@@ -48,3 +48,5 @@ npm run dev:full
 - add screenshots section
 
 - add contributing guide
+
+- add license file

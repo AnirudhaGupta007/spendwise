@@ -54,3 +54,5 @@ npm run dev:full
 - clean up console logs
 
 - remove unused imports
+
+- fix eslint warnings

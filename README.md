@@ -44,3 +44,5 @@ npm run dev:full
 - add client readme
 
 - add setup instructions
+
+- add screenshots section

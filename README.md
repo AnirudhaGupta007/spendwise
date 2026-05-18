@@ -46,3 +46,5 @@ npm run dev:full
 - add setup instructions
 
 - add screenshots section
+
+- add contributing guide

@@ -50,3 +50,5 @@ npm run dev:full
 - add contributing guide
 
 - add license file
+
+- clean up console logs

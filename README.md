@@ -62,3 +62,5 @@ npm run dev:full
 - update package description
 
 - add deployment notes
+
+- improve code comments

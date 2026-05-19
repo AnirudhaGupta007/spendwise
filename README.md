@@ -60,3 +60,5 @@ npm run dev:full
 - add environment variables docs
 
 - update package description
+
+- add deployment notes

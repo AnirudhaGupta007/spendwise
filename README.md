@@ -58,3 +58,5 @@ npm run dev:full
 - fix eslint warnings
 
 - add environment variables docs
+
+- update package description

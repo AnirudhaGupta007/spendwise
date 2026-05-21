@@ -70,3 +70,5 @@ npm run dev:full
 - format server code
 
 - format client code
+
+- fix typos in comments

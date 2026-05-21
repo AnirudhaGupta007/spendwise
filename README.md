@@ -66,3 +66,5 @@ npm run dev:full
 - improve code comments
 
 - add jsdoc to controllers
+
+- format server code

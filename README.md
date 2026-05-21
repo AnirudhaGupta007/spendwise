@@ -64,3 +64,5 @@ npm run dev:full
 - add deployment notes
 
 - improve code comments
+
+- add jsdoc to controllers

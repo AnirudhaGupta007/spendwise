@@ -80,3 +80,5 @@ npm run dev:full
 - add docker note
 
 - improve error messages
+
+- final cleanup

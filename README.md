@@ -82,3 +82,5 @@ npm run dev:full
 - improve error messages
 
 - final cleanup
+
+- bump version to 1.0.0

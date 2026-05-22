@@ -72,3 +72,5 @@ npm run dev:full
 - format client code
 
 - fix typos in comments
+
+- update gitignore patterns

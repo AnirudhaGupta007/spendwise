@@ -74,3 +74,5 @@ npm run dev:full
 - fix typos in comments
 
 - update gitignore patterns
+
+- add build instructions

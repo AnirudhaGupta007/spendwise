@@ -76,3 +76,5 @@ npm run dev:full
 - update gitignore patterns
 
 - add build instructions
+
+- add docker note

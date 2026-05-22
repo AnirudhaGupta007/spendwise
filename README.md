@@ -78,3 +78,5 @@ npm run dev:full
 - add build instructions
 
 - add docker note
+
+- improve error messages

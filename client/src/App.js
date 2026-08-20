@@ -4,20 +4,23 @@ import Login from "./pages/Login";
 import Register from "./pages/Register";
 import HomePage from "./pages/HomePage";
 import AddTransaction from "./pages/AddTransaction";
+import ErrorBoundary from "./components/ErrorBoundary";
 import "./App.css";
 
 function App() {
   const isLoggedIn = () => !!localStorage.getItem("token");
 
   return (
-    <BrowserRouter>
-      <Routes>
-        <Route path="/add" element={isLoggedIn() ? <AddTransaction /> : <Navigate to="/login" />} />
-        <Route path="/" element={isLoggedIn() ? <HomePage /> : <Navigate to="/login" />} />
-        <Route path="/login" element={<Login />} />
-        <Route path="/register" element={<Register />} />
-      </Routes>
-    </BrowserRouter>
+    <ErrorBoundary>
+      <BrowserRouter>
+        <Routes>
+          <Route path="/add" element={isLoggedIn() ? <AddTransaction /> : <Navigate to="/login" />} />
+          <Route path="/" element={isLoggedIn() ? <HomePage /> : <Navigate to="/login" />} />
+          <Route path="/login" element={<Login />} />
+          <Route path="/register" element={<Register />} />
+        </Routes>
+      </BrowserRouter>
+    </ErrorBoundary>
   );
 }
 

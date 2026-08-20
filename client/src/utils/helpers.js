@@ -1,37 +1,19 @@
-import React from "react";
-
-const helpers = () => {
-  return <div className="helpers">helpers</div>;
+export const formatDate = (dateString) => {
+  return new Date(dateString).toLocaleDateString("en-IN", {
+    year: "numeric",
+    month: "short",
+    day: "numeric",
+  });
 };
 
-export default helpers;
+export const formatCurrency = (amount) => {
+  return new Intl.NumberFormat("en-IN", {
+    style: "currency",
+    currency: "INR",
+  }).format(amount);
+};
 
-// add trend arrows to stats
-
-// add view all link
-
-// style footer layout
-
-// style register page
-
-// add placeholder text to inputs
-
-// customize primary color
-
-// fix z-index issues
-
-// add global error boundary
-
-// style 404 page
-
-// style offline banner
-
-// style toast container
-
-// save draft to localstorage
-
-// add keyboard shortcuts
-
-// improve accessibility labels
-
-// add focus visible styles
+export const capitalize = (str) => {
+  if (!str) return "";
+  return str.charAt(0).toUpperCase() + str.slice(1);
+};

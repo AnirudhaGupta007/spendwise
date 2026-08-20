@@ -19,8 +19,6 @@ const getTransactions = async (req, res) => {
   }
 };
 
-module.exports = { getTransactions };
-
 const addTransaction = async (req, res) => {
   try {
     const { amount, type, category, description, date } = req.body;
@@ -35,8 +33,6 @@ const addTransaction = async (req, res) => {
     res.status(500).json({ success: false, message: error.message });
   }
 };
-
-module.exports = { getTransactions, addTransaction };
 
 const deleteTransaction = async (req, res) => {
   try {
@@ -54,8 +50,6 @@ const deleteTransaction = async (req, res) => {
   }
 };
 
-module.exports = { getTransactions, addTransaction, deleteTransaction };
-
 const updateTransaction = async (req, res) => {
   try {
     const transaction = await Transaction.findById(req.params.id);
@@ -71,8 +65,6 @@ const updateTransaction = async (req, res) => {
     res.status(500).json({ success: false, message: error.message });
   }
 };
-
-module.exports = { getTransactions, addTransaction, deleteTransaction, updateTransaction };
 
 const getSummary = async (req, res) => {
   try {

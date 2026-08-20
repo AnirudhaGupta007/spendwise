@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { Form, Input, Button, message } from "antd";
 import { Link } from "react-router-dom";
-import axios from "axios";
+import API from "../utils/axiosConfig";
 
 const Login = () => {
   const [loading, setLoading] = useState(false);
@@ -9,7 +9,7 @@ const Login = () => {
   const onFinish = async (values) => {
     try {
       setLoading(true);
-      const { data } = await axios.post("/api/users/login", values);
+      const { data } = await API.post("/users/login", values);
       localStorage.setItem("token", data.token);
       localStorage.setItem("user", JSON.stringify(data.user));
       message.success("Login successful");

@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { Form, Input, Button, message } from "antd";
 import { Link, useNavigate } from "react-router-dom";
-import axios from "axios";
+import API from "../utils/axiosConfig";
 
 const Register = () => {
   const [loading, setLoading] = useState(false);
@@ -10,7 +10,7 @@ const Register = () => {
   const onFinish = async (values) => {
     try {
       setLoading(true);
-      await axios.post("/api/users/register", values);
+      await API.post("/users/register", values);
       message.success("Registration successful");
       navigate("/login");
     } catch (error) {

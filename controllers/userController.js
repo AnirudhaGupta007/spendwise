@@ -21,8 +21,6 @@ const registerUser = async (req, res) => {
   }
 };
 
-module.exports = { registerUser };
-
 const loginUser = async (req, res) => {
   try {
     const { email, password } = req.body;
